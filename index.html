@@ -11,12 +11,93 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/vivid-icons@1.0.10"
+      type="text/javascript"
+    ></script>
     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
-      <h1>Weather App</h1>
-      <a href="" class="btn btn-primary">Click me</a>
+      <form>
+        <div class="row">
+          <div class="col-9">
+            <input
+              type="search"
+              placeholder="Enter a city..."
+              class="form-control search-input"
+            />
+          </div>
+          <div class="col-3">
+            <input type="submit" class="btn btn-primary" value="Search" />
+          </div>
+        </div>
+      </form>
+      <div class="row">
+        <div class="col-6">
+          <h1>Auckland</h1>
+          <ul>
+            <li>Sunday, 17:43, light rain</li>
+            <li>Humidity: 77%, Wind: 9.26km/h</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <i data-vi="cloud"></i>
+          <span> 15°C | °F</span>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <ul>
+              <li>Mon</li>
+              <li>
+                <i data-vi="sun"></i>
+              </li>
+              <li>17° | 8°</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <li>Tue</li>
+            <li>
+              <i data-vi="sun"></i>
+            </li>
+            <li>17° | 8°</li>
+          </div>
+          <div class="col-2">
+            <li>Wed</li>
+            <li>
+              <i data-vi="sun"></i>
+            </li>
+            <li>17° | 8°</li>
+          </div>
+          <div class="col-2">
+            <li>Thu</li>
+            <li>
+              <i data-vi="sun"></i>
+            </li>
+            <li>17° | 8°</li>
+          </div>
+          <div class="col-2">
+            <li>Fri</li>
+            <li>
+              <i data-vi="sun"></i>
+            </li>
+            <li>17° | 8°</li>
+          </div>
+          <div class="col-2">
+            <li>Sat</li>
+            <li>
+              <i data-vi="sun"></i>
+            </li>
+            <li>17° | 8°</li>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <span
+          >This project was coded by Jordan Nagar as a part of the SheCodes
+          program.
+        </span>
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>
