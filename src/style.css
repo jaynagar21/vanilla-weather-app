@@ -1,0 +1,57 @@
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
+}
+h1 {
+  color: blueviolet;
+  margin: 20px 10px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-stats {
+  padding-bottom: 20px;
+}
+
+.temp-icon {
+  padding-top: 20px;
+}
+
+.week-view {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.main-temp {
+  font-size: 80px;
+  font-weight: 800;
+}
