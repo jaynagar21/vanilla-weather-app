@@ -14,6 +14,7 @@
       src="https://cdn.jsdelivr.net/npm/vivid-icons@1.0.10"
       type="text/javascript"
     ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -37,10 +38,14 @@
         <div class="row">
           <div class="col-6">
             <div class="location-stats">
-              <h1>Auckland</h1>
+              <h1 id="city"></h1>
               <ul class="main-stats">
-                <li>Sunday, 17:43, light rain</li>
-                <li>Humidity: 77%, Wind: 9.26km/h</li>
+                <li id="date"></li>
+                <li id="description"></li>
+                <li>
+                  Humidity: <span id="humidity"></span>%, Wind:
+                  <span id="speed"></span>km/h
+                </li>
               </ul>
             </div>
           </div>
@@ -49,7 +54,9 @@
               <span class="main-icon">
                 <i data-vi="cloud" data-vi-size="105"></i>
               </span>
-              <span> <span class="main-temp">15</span>°C | °F</span>
+              <span>
+                <span class="main-temp" id="temperature">15</span>°C | °F</span
+              >
             </div>
           </div>
           <div class="row">

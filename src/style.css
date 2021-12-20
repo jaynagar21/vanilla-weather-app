@@ -55,3 +55,7 @@ li {
   font-size: 80px;
   font-weight: 800;
 }
+
+#description {
+  text-transform: capitalize;
+}
