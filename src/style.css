@@ -72,3 +72,11 @@ a {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+
+#forecast {
+  text-align: center;
+}
+
+#footer {
+  margin-top: 20px;
+}
